@@ -2,7 +2,7 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle jscsfixer'
+      'label': 'Fix this file with jscs'
       'command': 'jscsfixer:toggle'
     }
   ]
@@ -10,10 +10,10 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'jscsfixer'
+      'label': 'jscs Fixer'
       'submenu': [
         {
-          'label': 'Toggle'
+          'label': 'Fix current file'
           'command': 'jscsfixer:toggle'
         }
       ]

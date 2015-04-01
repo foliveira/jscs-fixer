@@ -1,0 +1,12 @@
+language: "node_js"
+branches:
+  only:
+    - master
+node_js:
+  - "iojs"
+os:
+  - linux
+  - osx
+  - windows
+before_install:
+  - npm update -g npm
