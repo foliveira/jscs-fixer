@@ -8,7 +8,7 @@ Install the module with: `apm install jscs-fixer`
 ## Usage
 
 * Invoke the command using any of the below:
-  1. From Command Palette (<kbd>⌘</kbd>+<kbd>⌂</kbd>+<kbd>P</kbd>) invoke `jscs: Fix`
+  1. From Command Palette (<kbd>⌘</kbd>+<kbd>⌂</kbd>+<kbd>P</kbd>) invoke `jscs Fixer: Fix`
   2. Right click on one of the selected files and choose `Fix this file using jscs`
   3. Use the keyboard shortcut - <kbd>ctrl</kbd>+<kbd>⌂</kbd>+<kbd>J</kbd>
 
