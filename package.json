@@ -2,7 +2,7 @@
   "name": "jscs-fixer",
   "main": "./lib/jscsfixer",
   "version": "0.2.0",
-  "description": "A short description of your package",
+  "description": "Atom package to run jscs --fix on your project files",
   "activationCommands": {
     "atom-workspace": "jscs-fixer:fix"
   },
