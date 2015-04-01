@@ -10,7 +10,7 @@ describe "jscs-fixer", ->
 
   beforeEach ->
     workspaceElement = atom.views.getView(atom.workspace)
-    activationPromise = atom.packages.activatePackage('jscsfixer')
+    activationPromise = atom.packages.activatePackage('jscs-fixer')
 
   describe "when the jscsfixer:toggle event is triggered", ->
     it "demonstrates that I'm lazy to delete the actual test case and write a bogus one", ->

@@ -1,5 +1,16 @@
-# jscsfixer package
+# jscs-fixer
 
-A short description of your package.
+Fixes a file using your repo's .jscsrc rules file and the --fix switch on `jscs`
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+## Getting Started
+Install the module with: `apm install jscs-fixer`
+
+## Usage
+
+* Invoke the command using any of the below:
+  1. From Command Palette (<kbd>⌘</kbd>+<kbd>⌂</kbd>+<kbd>P</kbd>) invoke `jscs: Fix`
+  2. Right click on one of the selected files and choose `Fix this file using jscs`
+  3. Use the keyboard shortcut - <kbd>ctrl</kbd>+<kbd>⌂</kbd>+<kbd>J</kbd>
+
+## License
+Copyright (c) 2015 Fábio Oliveira. Licensed under the MIT license.
