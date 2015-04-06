@@ -1,4 +1,4 @@
-## 0.2.3 - With config
+## 0.2.4 - With config
 * Invoking `jscs` straight from _node_modules_
 
 ## 0.2.2 - First Release
