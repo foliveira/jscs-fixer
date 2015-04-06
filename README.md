@@ -12,5 +12,7 @@ Install the module with: `apm install jscs-fixer`
   2. Right click on one of the selected files and choose `Fix this file using jscs`
   3. Use the keyboard shortcut - <kbd>ctrl</kbd>+<kbd>⌂</kbd>+<kbd>J</kbd>
 
+  ![jscs-fixer](https://cldup.com/ZUMuESwjeL.gif)
+
 ## License
 Copyright (c) 2015 Fábio Oliveira. Licensed under the MIT license.
