@@ -15,6 +15,12 @@
   "activationCommands": {
     "atom-workspace": "jscs-fixer:fix"
   },
+  "scripts": {
+    "codestyle": "jscs -p google lib/*.js"
+  },
+  "pre-commit": [
+    "codestyle"
+  ],
   "repository": "https://github.com/foliveira/jscs-fixer",
   "license": "MIT",
   "engines": {
@@ -22,5 +28,8 @@
   },
   "dependencies": {
     "jscs": "^1.12.0"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.0.6"
   }
 }
