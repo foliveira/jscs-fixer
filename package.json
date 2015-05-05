@@ -1,7 +1,7 @@
 {
   "name": "jscs-fixer",
   "main": "./lib/jscsfixer",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Atom package to run jscs --fix on your scripts",
   "files": [
     "keymaps/jscsfixer.cson",
