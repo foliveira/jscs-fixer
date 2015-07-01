@@ -3,15 +3,6 @@
   "main": "./lib/jscsfixer",
   "version": "0.5.1",
   "description": "Atom package to run jscs --fix on your scripts",
-  "files": [
-    "keymaps/jscsfixer.cson",
-    "menus/jscsfixer.cson",
-    "lib/jscsfixer.js",
-    "CHANGELOG.md",
-    "LICENSE.md",
-    "README.md",
-    "package.json"
-  ],
   "activationCommands": {
     "atom-workspace": "jscs-fixer:fix"
   },
@@ -27,6 +18,7 @@
     "atom": ">=0.174.0 <2.0.0"
   },
   "dependencies": {
+    "esprima-fb": "^15001.1.0-dev-harmony-fb",
     "jscs": "^1.12.0"
   },
   "devDependencies": {
