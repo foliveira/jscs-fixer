@@ -1,3 +1,7 @@
+## 0.9.0 - JSX and Notifications
+* Add support for JSX files
+* Add warning when fixing a not yet saved file
+
 ## 0.5.0
 * Fix bug on settings view
 * Add setting option for JSCS binary location
