@@ -1,18 +1,32 @@
 # jscs-fixer
 
-Fixes a file using your repo's .jscsrc rules file and the --fix switch on `jscs`
+Fixes a file using your project's `.jscsrc` rules file and the --fix switch on `jscs`
 
 ## Getting Started
 Install the module with: `apm install jscs-fixer`
 
+## Supports
+
+* Vanilla Javascript (ES5)
+* ES2015 (previously known has ES6/Harmony)
+* JSX
+
+ES2015 and JSX support is based on the [esprima-fb](https://github.com/facebook/esprima) parser and can be toggled in the settings pane.
+
 ## Usage
 
-* Invoke the command using any of the below:
-  1. From Command Palette (<kbd>⌘</kbd>+<kbd>⌂</kbd>+<kbd>P</kbd>) invoke `jscs Fixer: Fix`
-  2. Right click on one of the selected files and choose `Fix this file using jscs`
-  3. Use the keyboard shortcut - <kbd>ctrl</kbd>+<kbd>⌂</kbd>+<kbd>J</kbd>
+* Check the settings pane for package options.
 
-  ![jscs-fixer](https://cldup.com/Rmg6zIa3kS.gif)
+* Invoke the command using any of the options below:
+  1. Use the keyboard shortcut - <kbd>ctrl</kbd>+<kbd>⌂</kbd>+<kbd>J</kbd>
+  2. Right click on one a file editor and choose `Fix this file using jscs`
+  3. From Command Palette (<kbd>⌘</kbd>+<kbd>⌂</kbd>+<kbd>P</kbd>) invoke `Jscs Fixer: Fix`
+
+![jscs-fixer](https://cldup.com/Rmg6zIa3kS.gif)
+
+#### Notes
+
+To get linting support, you will need this package: https://atom.io/packages/linter-jscs
 
 ## License
 Copyright (c) 2015 Fábio Oliveira. Licensed under the MIT license.

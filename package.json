@@ -20,7 +20,7 @@
     "atom-workspace": "jscs-fixer:fix"
   },
   "scripts": {
-    "codestyle": "jscs -p google lib/*.js"
+    "codestyle": "jscs -p google --esnext lib/*.js"
   },
   "pre-commit": [
     "codestyle"
