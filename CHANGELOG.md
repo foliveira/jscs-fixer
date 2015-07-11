@@ -1,3 +1,12 @@
+## 1.0.0 - Rewrite
+* Rewrote the package using ES2015 (Babel)
+* ES2015 and JSX fix support based on esprima-fb
+* Uses Atom native notifications (need to enable in package settings)
+
+## 0.9.0 - JSX and Notifications
+* Add support for JSX files
+* Add warning when fixing a not yet saved file
+
 ## 0.5.0
 * Fix bug on settings view
 * Add setting option for JSCS binary location
