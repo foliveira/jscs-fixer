@@ -2,6 +2,7 @@
 * Rewrote the package using ES2015 (Babel)
 * ES2015 and JSX fix support based on esprima-fb
 * Uses Atom native notifications (need to enable in package settings)
+* Uses BufferedNodeProcess instead of BufferedProcess
 
 ## 0.9.0 - JSX and Notifications
 * Add support for JSX files
