@@ -5,10 +5,12 @@ Fixes a file using your project's `.jscsrc` rules file and the --fix switch on `
 ## Getting Started
 Install the module with: `apm install jscs-fixer`
 
+Alternatively use Settings → Install → Search for `jscs-fixer` inside the editor.
+
 ## Supports
 
 * Vanilla Javascript (ES5)
-* ES2015 (previously known has ES6/Harmony)
+* ES2015 (previously known as ES6/Harmony)
 * JSX
 
 ES2015 and JSX support is based on the [esprima-fb](https://github.com/facebook/esprima) parser and can be toggled in the settings pane.
